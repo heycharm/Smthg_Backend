@@ -156,9 +156,9 @@ Start the server:
 python -m uvicorn main:app --reload
 ```
 
-<!-- The API will be available at:
+The API will be available at:
 
-```text
+<!-- ```text
 http://localhost:8000
 ```
 
@@ -173,4 +173,36 @@ http://localhost:8000/docs
 Build the image:
 
 ```bash
-docker build -t wind
+docker build -t wind-analysis-backend .
+```
+
+Run the container:
+
+```bash
+docker run --rm -p 8000:8000 wind-analysis-backend
+```
+
+<!-- The API will then be available at:
+
+```text
+http://localhost:8000
+``` -->
+<!-- 
+## Deployment
+
+The backend is deployed and publicly accessible.
+
+**Backend URL:**  
+[Add deployed backend URL]
+
+**API Documentation:**  
+[Add deployed backend URL]/docs -->
+
+## AI Tools Used
+
+AI tools were used during development for assistance with:
+
+- Code refinement
+- Debugging
+- Understanding API responses
+- Reviewing implementation decisions
